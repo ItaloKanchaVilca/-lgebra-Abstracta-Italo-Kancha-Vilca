@@ -40,7 +40,7 @@ int mcd(int numero1, int numero2)
     t = t_a; // nos retorna el valor de la "y"
 
     cout << "valor de x: " << s << endl << "valor de y: " << t << endl;
-    return numero1;
+    return numero1; // retorna el maximo comun divisor
 }
 
 
@@ -51,7 +51,7 @@ int main()
     cout << "Ingresa el segundo valor: "; cin >> numero2; // ingresamos nuestro segundo valor
 
     int respuesta = mcd(numero1, numero2);
-    cout << "El máximo común divisor de (" << numero1 << ", " << numero2 << ") es: " << respuesta << endl;
+    cout << "El máximo común divisor de (" << numero1 << ", " << numero2 << ") es: " << respuesta << endl; //imprime el mcd
 }
 ```
 

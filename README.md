@@ -8,9 +8,13 @@ Laboratorio 02b
 
  2.- Implementar el Algoritmo Extendido de Euclides:
  
- - En este algortimo hallaremos el maximo comun divisor de dos numeros y el valor de "x" y "y" de la formula.
+ - En este algortimo hallaremos el máximo común divisor de dos números y el valor de "x" y "y" de la fórmula.
  
 ![euclidesssssssssss](https://user-images.githubusercontent.com/54363893/135957346-ae18d6ed-6eba-4a06-a41f-cf1249d268ea.PNG)
+
+PARA LA EJECUCIÓN:
+
+- se debe ingresar dos valores 
 
 ```c ++
 #include <iostream>

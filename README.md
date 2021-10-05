@@ -16,6 +16,10 @@ PARA LA EJECUCIÓN:
 
 - se debe ingresar dos valores 
 
+![tgfdgfdgfdg](https://user-images.githubusercontent.com/54363893/135958753-eef18b5f-c553-4e70-8329-e1c5769f207d.png)
+
+EXPLICACIÓN DEL CODIGO CON COMENTARIOS:
+
 ```c ++
 #include <iostream>
 using namespace std;

@@ -1,12 +1,9 @@
 # Álgebra-Abstracta-Italo-Kancha-Vilca
 Laboratorio 02b
-# Evaluación Final - Desarrollo basado en Plataformas
-
-**NOTA: - 14 / 20**
 
 **NOMBRE:** Italo kancha vilca
 
-**CÓDIGO:** 181-10-43683
+**grupo:** Ccomp 3-1
 
 
 Indicaciones:

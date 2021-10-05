@@ -6,12 +6,7 @@ Laboratorio 02b
 **grupo:** Ccomp 3-1
 
 
- 2.- Implementar el Algoritmo Extendido de Euclides.:
-
-- 
-- 
--
--
+ 2.- Implementar el Algoritmo Extendido de Euclides:
 
 ```c ++
 #include <iostream>

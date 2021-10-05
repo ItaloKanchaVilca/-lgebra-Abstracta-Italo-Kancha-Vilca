@@ -7,6 +7,8 @@ Laboratorio 02b
 
 
  2.- Implementar el Algoritmo Extendido de Euclides:
+ 
+![euclidesssssssssss](https://user-images.githubusercontent.com/54363893/135957346-ae18d6ed-6eba-4a06-a41f-cf1249d268ea.PNG)
 
 ```c ++
 #include <iostream>
@@ -34,8 +36,8 @@ int mcd(int numero1, int numero2)
         t_b = t;
     }
 
-    s = s_a;
-    t = t_a;
+    s = s_a; // nos retorna el valor de la "x"
+    t = t_a; // nos retorna el valor de la "y"
 
     cout << "valor de x: " << s << endl << "valor de y: " << t << endl;
     return numero1;

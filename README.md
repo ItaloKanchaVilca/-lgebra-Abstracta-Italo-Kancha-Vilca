@@ -8,11 +8,11 @@ Laboratorio 02b
 
  2.- Implementar el Algoritmo Extendido de Euclides.:
 
-- Lea cada una de las secciones y responda correctamente, las respuestas deben redactarse en los lugares donde son indicados.
-- Copia o intento de este anulará su evaluación.
-- La resolución del examen es individual.
-- Entregas después de la hora indicada no serán consideradas
+- 
+- 
+-
+-
 
-Hora de Fin: 20:45
+
 
 ---

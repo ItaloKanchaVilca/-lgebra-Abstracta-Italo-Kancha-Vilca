@@ -1,2 +1,2 @@
-# -Álgebra-Abstracta-Italo-Kancha-Vilca
+# Álgebra-Abstracta-Italo-Kancha-Vilca
 Laboratorio 02b

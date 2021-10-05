@@ -13,7 +13,7 @@ Laboratorio 02b
 -
 -
 
-```html
+```c ++
 #include <iostream>
 using namespace std;
 

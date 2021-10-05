@@ -6,7 +6,7 @@ Laboratorio 02b
 **grupo:** Ccomp 3-1
 
 
-Indicaciones:
+ 2.- Implementar el Algoritmo Extendido de Euclides.:
 
 - Lea cada una de las secciones y responda correctamente, las respuestas deben redactarse en los lugares donde son indicados.
 - Copia o intento de este anulará su evaluación.

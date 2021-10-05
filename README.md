@@ -24,8 +24,8 @@ int mcd(int numero1, int numero2)
     {
         int cociente = numero1 / numero2; //obtenemos el cociente
         int residuo = numero1 - cociente * numero2; //obtenemos el residuo
-        numero1 = numero2;
-        numero2 = residuo;
+        numero1 = numero2; // al numero1 se le asigna el valor del numero2
+        numero2 = residuo; // al numero2 se le asigna el valor del residuo
         s = s_a - cociente * s_b;
         s_a = s_b;
         s_b = s;

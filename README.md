@@ -22,8 +22,8 @@ int mcd(int numero1, int numero2)
 
     while (numero2 > 0) //mientras el numero2 que fue ingresado sea mayor que cero, seguira iterando hasta obtener el ultimo valor.
     {
-        int cociente = numero1 / numero2;
-        int residuo = numero1 - cociente * numero2;
+        int cociente = numero1 / numero2; //obtenemos el cociente
+        int residuo = numero1 - cociente * numero2; //obtenemos el residuo
         numero1 = numero2;
         numero2 = residuo;
         s = s_a - cociente * s_b;
@@ -45,8 +45,8 @@ int mcd(int numero1, int numero2)
 int main() 
 {
     int numero1, numero2;
-    cout << "Ingresa el primer valor: "; cin >> numero1;
-    cout << "Ingresa el segundo valor: "; cin >> numero2;
+    cout << "Ingresa el primer valor: "; cin >> numero1; // ingresamos nuestro primer valor
+    cout << "Ingresa el segundo valor: "; cin >> numero2; // ingresamos nuestro segundo valor
 
     int respuesta = mcd(numero1, numero2);
     cout << "El máximo común divisor de (" << numero1 << ", " << numero2 << ") es: " << respuesta << endl;

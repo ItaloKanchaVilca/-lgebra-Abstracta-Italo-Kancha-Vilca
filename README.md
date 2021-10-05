@@ -14,39 +14,48 @@ Laboratorio 02b
 -
 
 ```html
-<html>
-  <head>
-    <title>Parcial Evaluation</title>
-    <style>
-        .media img{
-            margin-right:  20px;
-        }
-        .media .nombre{
-            color: black;
-            margin-bottom: 0;
-        }
-        .media .nombre span{
-            font-size: 12px;
-            color:black;
-            margin-left: 10px;
-        }
-        .media .comentario{
-            margin-top: 10px;
-        }
-    </style>
-</head>
-  <body>
+#include <iostream>
+using namespace std;
 
-    <div>
-        <img src="fotoItalo.jpg" width="64" height="64" alt="">
-        <div class="media-body">
-            <p class="nombre">Finn DoRemiFaSo <span>9:58 am</span></p>
-            <p class="comentario">Lorem ipsum dolor y el resto del textoq que va aqui</p>
-        </div>
-    </div>
+int mcd(int numero1, int numero2) 
+{
+    int s, t;
+    int s_a = 1;
+    int s_b = 0;
+    int t_a = 0;
+    int t_b = 1;
 
-</body>
-</html>
+    while (numero2 > 0) 
+    {
+        int cociente = numero1 / numero2;
+        int residuo = numero1 - cociente * numero2;
+        numero1 = numero2;
+        numero2 = residuo;
+        s = s_a - cociente * s_b;
+        s_a = s_b;
+        s_b = s;
+        t = t_a - cociente * t_b;
+        t_a = t_b;
+        t_b = t;
+    }
+
+    s = s_a;
+    t = t_a;
+
+    cout << "valor de x: " << s << endl << "valor de y: " << t << endl;
+    return numero1;
+}
+
+
+int main() 
+{
+    int numero1, numero2;
+    cout << "Ingresa el primer valor: "; cin >> numero1;
+    cout << "Ingresa el segundo valor: "; cin >> numero2;
+
+    int respuesta = mcd(numero1, numero2);
+    cout << "El máximo común divisor de (" << numero1 << ", " << numero2 << ") es: " << respuesta << endl;
+}
 ```
 
 

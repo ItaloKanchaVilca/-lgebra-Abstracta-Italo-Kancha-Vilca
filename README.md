@@ -20,7 +20,7 @@ int mcd(int numero1, int numero2)
     int t_a = 0;
     int t_b = 1;
 
-    while (numero2 > 0) 
+    while (numero2 > 0) //mientras el numero2 que fue ingresado sea mayor que cero, seguira iterando hasta obtener el ultimo valor.
     {
         int cociente = numero1 / numero2;
         int residuo = numero1 - cociente * numero2;
